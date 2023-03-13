@@ -114,6 +114,11 @@ def animate(visited, path):
     cv2.waitKey(0)
     cv2.destroyAllWindows()           ####cv2 
 
+
+
+
+
+
 # voiding for valid start and goal nodes from client
 while True:
     start_str = input("\nGive the start node (in the format x,y): ")
@@ -130,11 +135,17 @@ while True:
         continue
     break
 
+
+
+
+
 # Running Dijkstra's Algorithm
 start_time = time.time()
 dijkstra = Dijkstra(start_node, goal_node)
 path = dijkstra.search()
 end_time = time.time()
+
+
 
 # Printing the  results
 if path is None:
