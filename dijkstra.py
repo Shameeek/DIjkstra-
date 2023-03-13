@@ -1,6 +1,6 @@
 import numpy as np
 import time
-import cv2                     ####### importing the necessary libraries accordingly
+import cv2                     ####### importing the necessary libraries is a must.
 from queue import PriorityQueue
 
 # Define the move functions
